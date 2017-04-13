@@ -8,6 +8,5 @@
  */
 \Larakit\StaticFiles\Manager::package('larakit/sf-angular-route')
     ->setSourceDir('public')
-    ->ngModule('ngRoute')
     ->usePackage('larakit/sf-angular')
     ->jsPackage('angular-route.min.js');
